@@ -26,4 +26,7 @@ Cada subproceso tiene una prioridad. Los hilos con mayor prioridad se ejecutan d
 
 
 ### Start - Sleep - Yield - Join
-- Start: 
+- Start: Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.
+- Sleep: Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds, subject to the precision and accuracy of system timers and schedulers. The thread does not lose ownership of any monitors.
+- Yield: A hint to the scheduler that the current thread is willing to yield its current use of a processor.
+- Join: Waits at most millis milliseconds for this thread to die. A timeout of 0 means to wait forever. 
