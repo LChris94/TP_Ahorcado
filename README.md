@@ -26,7 +26,7 @@ Cada subproceso tiene una prioridad. Los hilos con mayor prioridad se ejecutan d
 
 
 ### Start - Sleep - Yield - Join
-- Start: Causes this thread to begin execution; the Java Virtual Machine calls the run method of this thread.
-- Sleep: Causes the currently executing thread to sleep (temporarily cease execution) for the specified number of milliseconds, subject to the precision and accuracy of system timers and schedulers. The thread does not lose ownership of any monitors.
-- Yield: A hint to the scheduler that the current thread is willing to yield its current use of a processor.
-- Join: Waits at most millis milliseconds for this thread to die. A timeout of 0 means to wait forever. 
+- Start: hace que el hilo comience la ejecución; La máquina virtual de Java llama al método de ejecución de este hilo.
+- Sleep: hace que el subproceso que se está ejecutando en ese momento entre en suspensión (cese temporalmente la ejecución) durante el número especificado de milisegundos, sujeto a la precisión y exactitud de los programadores y temporizadores del sistema. El hilo no pierde la propiedad de ningún monitor.
+- Yield: una sugerencia para el programador de que el subproceso actual está dispuesto a dar su uso actual de un procesador.
+- Join: Espera una cantidad determinada de milisegundos como máximo para que este hilo muera. Un tiempo de espera de 0 significa esperar por siempre.
